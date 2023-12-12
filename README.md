@@ -15,6 +15,11 @@
 
 ---
 
+#### Troubleshooting
+- If you catch error like [this](https://user-images.githubusercontent.com/17920285/158375305-f54d87fa-6f42-402f-af25-10b233d98cf9.png) you can try to make `npm install -g node-gyp`
+
+---
+
 #### Submit to [rs app](https://app.rs.school)
 1. Open [rs app](https://app.rs.school) and login
 2. Go to submit task page
@@ -24,7 +29,7 @@
 ---
 
 #### Notes
-1. We recommend you to use Node.js of version 14.x.x LTS. If you use any of features, that does not supported by Node.js v14, there may be problems with task submit.
+1. We recommend you to use Node.js of version 16.x.x LTS. If you use any of features, that does not supported by Node.js v16, there may be problems with task submit.
 2. Please, be sure that each of your tests is limited to 30 sec.
 
 ---
@@ -242,7 +247,7 @@ Write your code in `src/recursive-depth.js`.
 ---
 ### **Extended repeater**
 
-![Extended repater](https://farm5.staticflickr.com/4683/39024400961_732f449b65.jpg)  
+![Extended repater](https://upload.wikimedia.org/wikipedia/commons/4/4b/Macaws_at_Jurong_Bird_Park_-Singapore-8.jpg)  
 Your task is to implement the function `repeater(str, options)`.
 This function returns a repeating `string` based on the given parameters:
 * `str` is a `string` to repeat;
@@ -370,9 +375,9 @@ Write your code in `src/get-email-domain.js`.
 
 ---
 
-### **(ST) Is MAC-48 Adress?**
+### **(ST) Is MAC-48 Address?**
 The **MAC-48 address** is six groups of two hexadecimal digits (0 to 9 or A to F) separated by hyphens.
-Your task is to implement function that accepts **string** (`inputString`) and returns `true` if **string** is valid **MAC-48 adress**.  
+Your task is to implement function that accepts **string** (`inputString`) and returns `true` if **string** is valid **MAC-48 address**.  
 
 For example:
 
